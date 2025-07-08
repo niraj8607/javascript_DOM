@@ -18,3 +18,9 @@ const clas = document.querySelector(".myClass"); //select first element with cla
 console.log(clas);
 const pragraph = document.querySelectorAll("p"); //select all p element
 console.log(pragraph);
+
+//------------------Getter and Setter-----------------------------
+const imgs = document.querySelector("img");
+console.log(imgs);
+imgs.getAttribute("id");
+imgs.setAttribute("id","spiderman");
