@@ -24,3 +24,25 @@ const imgs = document.querySelector("img");
 console.log(imgs);
 imgs.getAttribute("id");
 imgs.setAttribute("id","spiderman");
+
+//-------------------Navigation------------------
+let h4 = document.querySelector("h4");
+console.log(h4.parentElement);
+
+let div = document.querySelector("div");
+console.log(div.children);
+
+
+//-----------------Adding Element------------
+let body = document.querySelector("body");
+let heading = document.createElement("h1");
+heading.textContent = "Dom se banaya gaya heading";
+body.appendChild(heading);
+
+let para = document.createElement("p");
+para.textContent = "yh paragraph dom se add kiya gaya hain";
+body.append(para);
+
+
+
+
